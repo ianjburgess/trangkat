@@ -19,22 +19,8 @@
     display: block;
 }
 
-.nav-right {
-    float: right;
-    text-align: center;
-    min-width: 125px;
-    max-width: 125px;
-}
-
-.nav-left {
-    float: left;
-    text-align: center;
-    min-width: 125px;
-    max-width: 125px;
-}
-
-.navbar-nav {
-    margin: 7.5px -3px;
+.navbar-right {
+    margin-top: 2px;
 }
 
 .header {
