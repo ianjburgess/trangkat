@@ -1,0 +1,40 @@
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+.navbar-left {
+
+}
+.navbar-right {
+
+}
+
+.navbar-toggle {
+    padding: 25px 10px;
+    float: left;
+}
+
+.header {
+
+}
+
+body {
+    max-width: 970px;
+    min-width: 360px;
+    margin: auto;
+    padding: auto;
+}
+
+
+
