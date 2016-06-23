@@ -13,21 +13,28 @@
    Author's custom styles
    ========================================================================== */
 
-.logo {
-    margin: 0;
-    padding: 0;
-    display: block;
+
+
+.navbar-brand {
+
 }
 
+.navbar-left {
+
+}
 .navbar-right {
     margin-top: 2px;
 }
 
 .header {
-    height: 130px;
+
 }
 
 body {
+    background-image: url('../img/logo.png');
+    background-size: 35%;
+    background-repeat: no-repeat;
+    background-position: center top;
     max-width: 970px;
     min-width: 360px;
     margin: auto;
