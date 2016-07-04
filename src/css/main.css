@@ -9,24 +9,45 @@
     padding: 0.2em 0;
 }
 
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/* Nav styles */
+.navbar {
+    margin-bottom: 0;
+}
+
 .navbar-nav {
     width: 100%;
     text-align: center;
 }
 .navbar-nav li {
-      float: none;
-      display: inline-block;
-  }
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+    float: none;
+    display: inline-block;
+}
 
+/* Carousel styles */
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
     max-height: 500px;    /* Set slide height here */
-
+    margin: auto;
 }
 
+.carousel-control.right, .carousel-control.left {
+  background-image: none;
+    color: black;
+}
+
+.carousel-inner {
+    background-color: white;
+}
+
+.workBox {
+    min-height: 300px;
+
+}
 
 .logo {
     max-width: 50%;
@@ -35,10 +56,16 @@
 }
 
 body {
-    max-width: 970px;
+
     min-width: 360px;
     margin: auto;
     padding: auto;
+}
+
+@media (min-width: 970px) {
+    .logo {
+        max-width: 485px;
+    }
 }
 
 
