@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f8b18d0-d742-4f63-bc80-91c742a0d231" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/maternity/Kristina/BW stina logo (Custom).jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/maternity/Kristina/bump serenna logo (Custom).jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/maternity/Kristina/lovee2logo (Custom).jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/maternity/Kristina/sexy stina with logo (Custom).jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/maternity/Kristina/white logo (Custom).jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/thumbs/BW stina logo (Custom).jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/thumbs/bump serenna logo (Custom).jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/thumbs/sexy stina with logo (Custom).jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/thumbs/white logo (Custom).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/maternity/mango1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/maternity/sexy stina.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/maternity/stina 2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/plugins.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/main.css" afterPath="$PROJECT_DIR$/src/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/main.js" afterPath="$PROJECT_DIR$/src/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/gallery.html" afterPath="$PROJECT_DIR$/src/pages/gallery.html" />
     </list>
     <ignored path="trangkat---singlenav.iws" />
@@ -47,9 +45,12 @@
       <file leaf-file-name="gallery.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/gallery.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="569">
-              <caret line="89" column="8" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="8" />
-              <folding />
+            <state relative-caret-position="546">
+              <caret line="91" column="70" selection-start-line="91" selection-start-column="70" selection-end-line="91" selection-end-column="70" />
+              <folding>
+                <element signature="e#1253#1459#0" expanded="false" />
+                <element signature="n#script#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -353,15 +354,15 @@
       <workItem from="1467277087426" duration="1233000" />
       <workItem from="1467348205749" duration="602000" />
       <workItem from="1467628750803" duration="7688000" />
-      <workItem from="1467679067760" duration="15439000" />
+      <workItem from="1467679067760" duration="13904000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43302000" />
+    <option name="totallyTimeSpent" value="41767000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -434,7 +435,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#1253#1459#0" expanded="false" />
+            <element signature="n#script#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -718,9 +722,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/gallery.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="89" column="8" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="8" />
-          <folding />
+        <state relative-caret-position="546">
+          <caret line="91" column="70" selection-start-line="91" selection-start-column="70" selection-end-line="91" selection-end-column="70" />
+          <folding>
+            <element signature="e#1253#1459#0" expanded="false" />
+            <element signature="n#script#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
