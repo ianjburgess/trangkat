@@ -23,3 +23,9 @@
         }
     }).trigger('resize');
 })(jQuery);
+
+
+// Gallery
+var gallery = $('.gallery a').simpleLightbox();
+
+

@@ -28,6 +28,7 @@
     display: inline-block;
 }
 
+
 /* Carousel styles */
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
@@ -57,16 +58,75 @@
 
 body {
 
+
+   /* background: #EECDA3; /* fallback for old browsers */
+    /*background: -webkit-linear-gradient(to left, #EECDA3 , #EF629F); /* Chrome 10-25, Safari 5.1-6 */
+    /*background: linear-gradient(to left, #EECDA3 , #EF629F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    background: #BA5370; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #BA5370 , #F4E2D8); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #BA5370 , #F4E2D8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     min-width: 360px;
     margin: auto;
     padding: auto;
 }
 
+
+/* Gallery */
+.gallery {
+    display: inline-block;
+    text-align: center;
+    padding: 10px 50px 0;
+}
+
+.lsimg {
+
+    width: 450px;
+    height: 350px;
+}
+
+.pimg {
+    height: 350px;
+}
+
+.img-thumbnail {
+    margin-top: 5px;
+}
+
+/* Media Queries */
+
+
+@media (min-width: 600px) {
+    .pimg {
+        width: 350px;
+        height: auto;
+    }
+}
 @media (min-width: 970px) {
     .logo {
         max-width: 485px;
     }
-}
 
+    .pimg {
+        height: 350px;
+        width: auto;
+    }
+}
+@media (max-width: 600px) {
+    .lsimg {
+        width: 350px;
+        height: auto;
+    }
+
+    .pimg {
+        width: 350px;
+        height: auto;
+    }
+    .gallery {
+        padding: 10px 15px;
+    }
+}
 
 
