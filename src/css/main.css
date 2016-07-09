@@ -119,7 +119,41 @@ body {
     margin-top: 5px;
 }
 
+.gallery a {
+    -webkit-transition: -webkit-transform .15s ease;
+    -moz-transition: -moz-transform .15s ease;
+    -o-transition: -o-transform .15s ease;
+    -ms-transition: -ms-transform .15s ease;
+    transition: transform .15s ease;
+}
 
+.gallery a:hover img {
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    z-index: 5;
+}
+
+.sl-overlay {
+    top: 50px;
+    background: black;
+    opacity: .5;
+}
+
+.sl-wrapper .sl-image img {
+    margin: 20px 0;
+}
+
+.sl-wrapper .sl-close, .sl-wrapper .sl-counter  {
+    top: 50px;
+    color: white;
+}
+
+.sl-wrapper .sl-navigation button {
+    color: white;
+}
 
 /* Media Queries */
 
