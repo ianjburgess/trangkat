@@ -1,12 +1,13 @@
 //Stack menu when collapsed
-$('#mainNav').on('show.bs.collapse', function() {
-    $('.nav-pills').addClass('nav-stacked');
-});
+
+//$('#mainNav').on('show.bs.collapse', function() {
+//    $('.nav-pills').addClass('nav-stacked');
+//});
 
 //Unstack menu when not collapsed
-$('#mainNav').on('hide.bs.collapse', function() {
-    $('.nav-pills').removeClass('nav-stacked');
-});
+//$('#mainNav').on('hide.bs.collapse', function() {
+//    $('.nav-pills').removeClass('nav-stacked');
+//});
 
 //Remove nav stacked class on screen > resize
 (function($) {
@@ -22,3 +23,9 @@ $('#mainNav').on('hide.bs.collapse', function() {
         }
     }).trigger('resize');
 })(jQuery);
+
+
+// Gallery
+var gallery = $('.gallery a').simpleLightbox();
+
+
