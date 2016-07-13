@@ -11,8 +11,15 @@
     <link rel="icon" href="../favicon.ico" type="image/x-icon">
     <!-- Place favicon.ico in the root directory -->
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <!-- Gallery Scripts -->
+    <link rel="stylesheet" href="../css/simplelightbox.min.css">
+    <script src="../js/simple-lightbox.min.js"></script>
+    <!-- Main styles / Scripts -->
     <link rel="stylesheet" href="../css/main.css">
+    <script src="../js/main.js"></script>
 </head>
 <body>
 <!--[if lt IE 8]>
@@ -22,10 +29,10 @@
 <header class="header">
     <!-- logo -->
     <div>
-        <a href="#"><img class="logo img-responsive" src="../img/logo2.png"></a>
+        <a href="../index.html"><img class="logo img-responsive" src="../img/logo2.png"></a>
     </div>
 
-    <nav class="navbar navbar-default" role="navigation">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container-fluid">
 
             <!-- Nav toggle -->
@@ -38,27 +45,32 @@
             <!-- Nav Items -->
             <div class="collapse navbar-collapse" id="mainNav">
                 <ul class="nav navbar-nav">
-                    <li role="presentation" class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                            Test <span class="caret"></span>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li>test</li>
-                        </ul>
-                    </li>
+                    <li role="presentation" class=""><a href="../index.html">Home</a></li>
                     <li role="presentation" class="active"><a href="gallery.html">Gallery</a></li>
                     <li role="presentation" class=""><a href="#">Info</a></li>
                     <li role="presentation" class=""><a href="#">Contact</a></li>
+                    <div class="pull-right social-icon">
+                        <li role="presentation"><img src="../img/glyphicons-social-31-facebook.png"></li>
+                        <li role="presentation" class="instagram"><img src="../img/glyphicons-social-33-instagram.png"></li>
+                    </div>
                 </ul>
             </div>
         </div>
     </nav>
+    <div class="">
+        <ul class="nav navbar-nav gallery-sub">
+            <li role="presentation" class=""><a href="../index.html">All</a></li>
+            <li role="presentation" class=""><a href="../index.html">Newborn</a></li>
+            <li role="presentation" class=""><a href="../index.html">Maternity</a></li>
+            <li role="presentation" class=""><a href="../index.html">Family</a></li>
+            <li role="presentation" class=""><a href="../index.html">Kids</a></li>
+            <li role="presentation" class=""><a href="../index.html">Cake Smash</a></li>
+        </ul>
+    </div>
 </header>
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-<script src="../js/main.js"></script>
+
 
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 <script>
