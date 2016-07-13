@@ -1,4 +1,5 @@
 //Stack menu when collapsed
+<<<<<<< HEAD
 
 //$('#mainNav').on('show.bs.collapse', function() {
 //    $('.nav-pills').addClass('nav-stacked');
@@ -8,6 +9,16 @@
 //$('#mainNav').on('hide.bs.collapse', function() {
 //    $('.nav-pills').removeClass('nav-stacked');
 //});
+=======
+$('#mainNav').on('show.bs.collapse', function() {
+    $('.nav-pills').addClass('nav-stacked');
+});
+
+//Unstack menu when not collapsed
+$('#mainNav').on('hide.bs.collapse', function() {
+    $('.nav-pills').removeClass('nav-stacked');
+});
+>>>>>>> 7c3d83e29194e5115ce11482bdbf157d350d5611
 
 //Remove nav stacked class on screen > resize
 (function($) {
@@ -23,6 +34,7 @@
         }
     }).trigger('resize');
 })(jQuery);
+<<<<<<< HEAD
 
 
 // Gallery
@@ -39,3 +51,5 @@ $(function(){
 });
 
 
+=======
+>>>>>>> 7c3d83e29194e5115ce11482bdbf157d350d5611

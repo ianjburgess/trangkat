@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/trangkat---singlenav.iml" filepath="$PROJECT_DIR$/.idea/trangkat---singlenav.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/trangkat.iml" filepath="$PROJECT_DIR$/.idea/trangkat.iml" />
+>>>>>>> 7c3d83e29194e5115ce11482bdbf157d350d5611
     </modules>
   </component>
 </project>
