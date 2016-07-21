@@ -14,6 +14,11 @@
    Author's custom styles
    ========================================================================== */
 
+.no-gutter {
+    padding: 0 !important;
+}
+
+
 /* Nav styles */
 
 .navbar {
@@ -90,9 +95,17 @@
     color: black;
 }
 
-.workBox {
-    min-height: 300px;
+/* Work Box */
+.text {
+    max-width: 970px;
+    text-align: center;
+    margin: auto;
 }
+
+.workBox {
+
+}
+
 
 .logo {
     padding-top: 60px;
@@ -133,15 +146,15 @@ body {
     margin-top: 5px;
 }
 
-.gallery a {
-    -webkit-transition: -webkit-transform .15s ease;
-    -moz-transition: -moz-transform .15s ease;
-    -o-transition: -o-transform .15s ease;
-    -ms-transition: -ms-transform .15s ease;
-    transition: transform .15s ease;
+.gallery a, .workBox img {
+    -webkit-transition: -webkit-transform .5s ease;
+    -moz-transition: -moz-transform .5s ease;
+    -o-transition: -o-transform .5s ease;
+    -ms-transition: -ms-transform .5s ease;
+    transition: transform .5s ease;
 }
 
-.gallery a:hover img {
+.gallery a:hover img, .workBox img:hover {
     -webkit-transform: scale(1.05);
     -moz-transform: scale(1.05);
     -o-transform: scale(1.05);
