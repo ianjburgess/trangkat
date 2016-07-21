@@ -15,6 +15,7 @@
    ========================================================================== */
 
 /* Nav styles */
+
 .navbar {
     margin-bottom: 0;
 }
@@ -44,6 +45,10 @@
     text-align: center;
 }
 
+.navbar-collapse ul {
+    padding-left: 20px;
+}
+
 .navbar-nav li {
     float: none;
     display: inline-block;
@@ -56,6 +61,14 @@
 
 .gallery-sub {
     margin: auto;
+}
+
+.social-icon {
+    padding-top: 15px;
+}
+
+.instagram {
+    padding-left: 5px;
 }
 
 
@@ -95,6 +108,7 @@ body {
     min-width: 360px;
     margin: auto;
     padding: auto;
+    overflow-y: scroll;
 }
 
 
@@ -155,6 +169,36 @@ body {
     color: white;
 }
 
+
+/* Contact Form */
+.contact-form {
+    max-width: 500px;
+}
+
+.success {
+    padding: 1em;
+    margin-bottom: 0.75rem;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    color: #468847;
+    background-color: #dff0d8;
+    border: 1px solid #d6e9c6;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.error {
+    padding: 1em;
+    margin-bottom: 0.75rem;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    color: #b94a48;
+    background-color: #f2dede;
+    border: 1px solid rgba(185, 74, 72, 0.3);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
 /* Media Queries */
 
 
@@ -200,6 +244,16 @@ body {
 
     .navbar-collapse {
         background: white;
+    }
+
+    .social-icon {
+        padding-top: 5px;
+        padding-right: 8px;
+    }
+
+    .navbar ul li a {
+        font-size: 15px;
+        padding: 7px 10px;
     }
 }
 

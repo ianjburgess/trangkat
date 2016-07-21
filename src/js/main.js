@@ -23,19 +23,3 @@
         }
     }).trigger('resize');
 })(jQuery);
-
-
-// Gallery
-$(function(){
-    var $gallery = $('.gallery a').simpleLightbox();
-
-    $gallery.on('show.simplelightbox', function(){
-        console.log('Requested for showing');
-    })
-        .on('error.simplelightbox', function(e){
-            console.log('No image found, go to the next/prev');
-            console.log(e);
-        });
-});
-
-

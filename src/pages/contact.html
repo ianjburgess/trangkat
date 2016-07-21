@@ -11,12 +11,9 @@
     <link rel="icon" href="../favicon.ico" type="image/x-icon">
     <!-- Place favicon.ico in the root directory -->
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <!-- Main styles / Scripts -->
     <link rel="stylesheet" href="../css/main.css">
-    <script src="../js/main.js"></script>
 </head>
 <body>
 <!--[if lt IE 8]>
@@ -43,11 +40,11 @@
             <div class="collapse navbar-collapse" id="mainNav">
                 <ul class="nav navbar-nav">
                     <li role="presentation" class=""><a href="../index.html">Home</a></li>
-                    <li role="presentation" class="active"><a href="gallery.html">Gallery</a></li>
+                    <li role="presentation" class=""><a href="gallery.html">Gallery</a></li>
                     <li role="presentation" class=""><a href="info.html">Info</a></li>
-                    <li role="presentation" class=""><a href="contact.html">Contact</a></li>
+                    <li role="presentation" class="active"><a href="contact.html">Contact</a></li>
                     <div class="pull-right social-icon">
-                        <li role="presentation"><a href="https://www.facebook.com/TrangKatphoto/" target="_blank"><img src="../img/glyphicons-social-31-facebook.png"></li>
+                        <li role="presentation"><a href="https://www.facebook.com/TrangKatphoto/" target="_blank"><img src="../img/glyphicons-social-31-facebook.png"></a></li>
                         <li role="presentation" class="instagram"><img src="../img/glyphicons-social-33-instagram.png"></li>
                     </div>
                 </ul>
@@ -56,7 +53,31 @@
     </nav>
 </header>
 
+<div class="contact-form container">
+    <div id="form-messages"></div>
+    <form id="ajax-contact" class="form-horizontal" method="post" action="../js/mailer.php">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="Contact Name">
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="Contact Email">
+        </div>
+        <div class="form-group">
+            <label for="textBox">Message</label>
+            <textarea class="form-control" id="textBox" rows="3" name="message" placeholder="Leave a message"></textarea>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-default">Send</button>
+        </div>
+    </form>
+</div>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="../js/main.js"></script>
+<script src="../js/mailer.js"></script>
 
 
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
