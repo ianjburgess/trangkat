@@ -108,6 +108,7 @@ body {
     min-width: 360px;
     margin: auto;
     padding: auto;
+    overflow-y: scroll;
 }
 
 
@@ -167,6 +168,13 @@ body {
 .sl-wrapper .sl-navigation button {
     color: white;
 }
+
+
+/* Contact Form */
+.contact-form {
+    max-width: 500px;
+}
+
 
 /* Media Queries */
 

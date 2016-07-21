@@ -43,11 +43,11 @@
             <div class="collapse navbar-collapse" id="mainNav">
                 <ul class="nav navbar-nav">
                     <li role="presentation" class=""><a href="../index.html">Home</a></li>
-                    <li role="presentation" class="active"><a href="gallery.html">Gallery</a></li>
+                    <li role="presentation" class=""><a href="gallery.html">Gallery</a></li>
                     <li role="presentation" class=""><a href="info.html">Info</a></li>
-                    <li role="presentation" class=""><a href="contact.html">Contact</a></li>
+                    <li role="presentation" class="active"><a href="contact.html">Contact</a></li>
                     <div class="pull-right social-icon">
-                        <li role="presentation"><a href="https://www.facebook.com/TrangKatphoto/" target="_blank"><img src="../img/glyphicons-social-31-facebook.png"></li>
+                        <li role="presentation"><a href="https://www.facebook.com/TrangKatphoto/" target="_blank"><img src="../img/glyphicons-social-31-facebook.png"></a></li>
                         <li role="presentation" class="instagram"><img src="../img/glyphicons-social-33-instagram.png"></li>
                     </div>
                 </ul>
@@ -56,8 +56,26 @@
     </nav>
 </header>
 
-
-
+<div class="contact-form container">
+    <div id="form-messages"></div>
+    <form id="ajax-contact" class="form-horizontal" method="post" action="../js/mailer.php">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="Contact Name">
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="Contact Email">
+        </div>
+        <div class="form-group">
+            <label for="textBox">Message</label>
+            <textarea class="form-control" id="textBox" rows="3" name="message" placeholder="Leave a message"></textarea>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-default">Send</button>
+        </div>
+    </form>
+</div>
 
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 <script>
