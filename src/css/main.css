@@ -65,6 +65,7 @@
 }
 
 .gallery-sub {
+    padding-top: 50px;
     margin: auto;
 }
 
@@ -79,14 +80,14 @@
 
 /* Carousel styles */
 .carousel {
-
+    padding-top: 50px;
 }
 
 .carousel-cell {
     width: 1200px;
     height: 800px;
     margin-right: 10px;
-    background: #8C8;
+
     border-radius: 5px;
     counter-increment: carousel-cell;
 }
@@ -102,11 +103,9 @@
 
 }
 
-
-.logo {
-    padding-top: 60px;
-    max-width: 50%;
-    margin: 0 auto;
+/* LOGO */
+.navbar-brand {
+    padding: 0px;
 }
 
 body {
