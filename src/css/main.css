@@ -14,8 +14,20 @@
    Author's custom styles
    ========================================================================== */
 
+.m-auto {
+    margin: auto;
+}
+
 .no-gutter {
     padding: 0 !important;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
 }
 
 /* Logo */
@@ -33,6 +45,10 @@
 .navbar-default, .gallery-sub {
     background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 55%, #ffffff 55%, rgba(255, 255, 255, 0) 100%);
     border: none;
+}
+
+.collapse .nav {
+    padding-left: 65px;
 }
 
 .navbar ul li a {
@@ -111,6 +127,20 @@ body {
 }
 
 
+/* SESSIONS */
+.session-img {
+    position: absolute;
+}
+
+.r1 {
+    background: #f2f2f2;
+}
+
+.r1 div, .r2 div {
+    padding: 15px;
+}
+
+
 /* GALLERY */
 .gallery {
     display: inline-block;
@@ -170,17 +200,28 @@ body {
 
 
 /* CONTACT */
+.contact-details {
+    text-align: center;
+}
+
 .contact-form {
     max-width: 400px;
+    margin: auto;
 }
 
 #contact {
     padding-top: 10px;
 }
 
-.contact-container {
+.content-container {
+    -webkit-box-shadow: 2px 2px 20px 0 #828282;
+    box-shadow: 2px 2px 20px 0 #828282;
     margin-top: 50px;
     background-color: white;
+}
+
+.container {
+
 }
 
 .success {
@@ -245,8 +286,6 @@ body {
     .gallery {
         padding: 0 15px;
     }
-
-
 }
 
 @media (max-width: 766px) {
@@ -269,4 +308,8 @@ body {
     }
 }
 
-
+@media (min-width: 1200px) {
+    .container {
+        width: 1350px;
+    }
+}
