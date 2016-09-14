@@ -11,9 +11,14 @@
 
 
 /* ==========================================================================
-   Author's custom styles
+   custom styles
    ========================================================================== */
 
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
 .m-auto {
     margin: auto;
 }
@@ -114,12 +119,44 @@
     margin: auto;
 }
 
-.workBox {
+.workBox .col-lg-3 {
+    padding: 0 7px;
+}
 
+.workBox img {
+    width: 100%;
+    margin-bottom: 10px;
+    -webkit-box-shadow: 2px 2px 20px 0 #828282;
+    box-shadow: 2px 2px 20px 0 #828282;
+}
+
+.imgWrap {
+    position: relative;
+}
+
+.imgDescription {
+    text-align: center!important;
+    padding-top: 5px;
+    position: absolute;
+    top: 45%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 30px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #404040 55%, #404040 55%, rgba(255, 255, 255, 0) 100%);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.imgWrap:hover .imgDescription {
+    visibility: visible;
+    opacity: 1;
 }
 
 body {
-    background-color: #FDF1C4;
+    /*background-color: #FDF1C4;*/
+    background-color: #F1FFFF;
     min-width: 360px;
     margin: auto;
     padding: auto;
@@ -132,11 +169,11 @@ body {
     position: absolute;
 }
 
-.r1 {
+.shadebg {
     background: #f2f2f2;
 }
 
-.r1 div, .r2 div {
+.pad15 div, .r2 div {
     padding: 15px;
 }
 
@@ -162,7 +199,7 @@ body {
     margin-top: 5px;
 }
 
-.gallery a, .workBox img {
+.gallery a, .workBox img, .imgWrap a {
     -webkit-transition: -webkit-transform .5s ease;
     -moz-transition: -moz-transform .5s ease;
     -o-transition: -o-transform .5s ease;
@@ -170,7 +207,7 @@ body {
     transition: transform .5s ease;
 }
 
-.gallery a:hover img, .workBox img:hover {
+.gallery a:hover img, .workBox img:hover, .imgWrap a:hover img {
     -webkit-transform: scale(1.05);
     -moz-transform: scale(1.05);
     -o-transform: scale(1.05);
