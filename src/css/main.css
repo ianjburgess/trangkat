@@ -40,6 +40,9 @@
     max-height: 85px;
 }
 
+.logoa {
+    min-height: 85px;
+}
 
 /* Nav styles */
 
@@ -50,10 +53,6 @@
 .navbar-default, .gallery-sub {
     background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 55%, #ffffff 55%, rgba(255, 255, 255, 0) 100%);
     border: none;
-}
-
-.collapse .nav {
-    padding-left: 65px;
 }
 
 .navbar ul li a {
@@ -90,6 +89,7 @@
 }
 
 .social-icon {
+    float: right;
     padding-top: 15px;
 }
 
@@ -185,13 +185,7 @@ body {
     padding: 0 50px;
 }
 
-.lsimg {
-
-    width: 450px;
-    height: 350px;
-}
-
-.pimg {
+.height350 {
     height: 350px;
 }
 
@@ -297,26 +291,26 @@ body {
 
 
 @media (min-width: 600px) {
-    .pimg {
+    .height350 {
         width: 350px;
         height: auto;
     }
 }
 
 @media (min-width: 970px) {
-    .pimg {
+    .height350 {
         height: 350px;
         width: auto;
     }
 }
 
 @media (max-width: 600px) {
-    .lsimg {
+    .height350 {
         width: 350px;
         height: auto;
     }
 
-    .pimg {
+    .height350 {
         width: 350px;
         height: auto;
     }
@@ -335,6 +329,7 @@ body {
     }
 
     .social-icon {
+        float: none;
         padding-top: 5px;
         padding-right: 8px;
     }
