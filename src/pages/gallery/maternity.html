@@ -75,9 +75,7 @@
 <!-- GALLERY -->
 
 <div class="gallery">
-    <a href="../../img/maternity/Kristina/white%20logo.jpg">
-        <img alt="Image 1 Title" src="../../img/thumbs/kristina/white%20logo%20(Custom).jpg" class="img-thumbnail height350">
-    </a>
+
 </div>
 
 
@@ -89,6 +87,22 @@
         e.src='https://www.google-analytics.com/analytics.js';
         r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
     ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+
+    $(document).ready(function() {
+        var fullimg = "../../img/maternity/";
+        var thumb = "../../img/maternity/thumbs/";
+
+        $.ajax({
+            url: thumb,
+            success: function (data) {
+                $(data).find("a").attr("href", function (i, val) {
+                    if (val.match(/\.(jpe?g|png|gif)$/)) {
+                        $(".gallery").append("<a href='" + fullimg + val + "'><img src='" + thumb + val + "' class='img-thumbnail galleryImg'></a>");
+                    }
+                });
+            }
+        });
+    });
 </script>
 </body>
 </html>
