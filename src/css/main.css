@@ -182,15 +182,11 @@ body {
 .gallery {
     display: inline-block;
     text-align: center;
-    padding: 0 50px;
-}
-
-.height350 {
-    height: 350px;
+    padding: 0 10px;
 }
 
 .img-thumbnail {
-    margin-top: 5px;
+    margin: 1.5px;
 }
 
 .gallery a, .workBox img, .imgWrap a {
@@ -289,7 +285,7 @@ body {
 
 /* Media Queries */
 
-
+/*
 @media (min-width: 600px) {
     .height350 {
         width: 350px;
@@ -310,12 +306,26 @@ body {
         height: auto;
     }
 
-    .height350 {
-        width: 350px;
-        height: auto;
-    }
     .gallery {
         padding: 0 15px;
+    }
+}
+
+
+
+
+*/
+
+@media (max-width: 480px) {
+    .galleryImg {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (min-width: 769px) {
+    .galleryImg {
+        max-height: 230px;
     }
 }
 
@@ -340,8 +350,28 @@ body {
     }
 }
 
-@media (min-width: 1200px) {
-    .container {
-        width: 1350px;
+@media (min-width: 960px) {
+    .galleryImg {
+        max-height: 280px;
     }
 }
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1270px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .galleryImg {
+        max-height: 310px;
+    }
+}
+
+@media (min-width:2000px) {
+    .galleryImg {
+        max-height: 500px;
+    }
+}
+
+
