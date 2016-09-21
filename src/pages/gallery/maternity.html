@@ -63,7 +63,7 @@
     </nav>
     <div class="">
         <ul class="nav navbar-nav gallery-sub">
-            <li role="presentation" class=""><a href="newborn.html">Newborn</a></li>
+            <li role="presentation" class=""><a href="../gallery.html">Newborn</a></li>
             <li role="presentation" class=""><a href="maternity.html">Maternity</a></li>
             <li role="presentation" class=""><a href="family.html">Family</a></li>
             <li role="presentation" class=""><a href="cakesmash.html">Cake Smash</a></li>
@@ -100,6 +100,7 @@
                         $(".gallery").append("<a href='" + fullimg + val + "'><img src='" + thumb + val + "' class='img-thumbnail galleryImg'></a>");
                     }
                 });
+                var $gallery = $('.gallery a').simpleLightbox();
             }
         });
     });

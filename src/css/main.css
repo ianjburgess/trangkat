@@ -186,7 +186,7 @@ body {
 }
 
 .img-thumbnail {
-    margin-top: 5px;
+    margin: 1.5px;
 }
 
 .gallery a, .workBox img, .imgWrap a {
@@ -311,6 +311,24 @@ body {
     }
 }
 
+
+
+
+*/
+
+@media (max-width: 480px) {
+    .galleryImg {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (min-width: 769px) {
+    .galleryImg {
+        max-height: 230px;
+    }
+}
+
 @media (max-width: 766px) {
     .navbar-default {
         background: none;
@@ -332,36 +350,15 @@ body {
     }
 }
 
-@media (min-width: 1200px) {
-    .container {
-        width: 1350px;
-    }
-}
-*/
-
-@media (max-width: 480px) {
-    .galleryImg {
-        width: 100%;
-        height: auto;
-    }
-}
-
-/*@media (min-width: 481px) and (max-width: 768px) {
-    .height350 {
-        height: auto;
-        width: 670px;
-    }
-}*/
-
-@media (min-width: 769px) {
-    .galleryImg {
-        max-height: 230px;
-    }
-}
-
 @media (min-width: 960px) {
     .galleryImg {
         max-height: 280px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1270px;
     }
 }
 
