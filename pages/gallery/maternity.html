@@ -39,23 +39,32 @@
 
             <!-- Nav toggle -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNav">
+                <button type="button" class="collapsed navbar-toggle" data-toggle="collapse" data-target="#mainNav">
                     <span class="glyphicon glyphicon-menu-hamburger"> Menu</span>
                 </button>
-
             </div>
 
             <!-- Nav Items -->
-            <div class="collapse navbar-collapse" id="mainNav">
+            <div class="collapse navbar-collapse" id="mainNav" aria-expanded="false">
                 <ul class="nav navbar-nav">
                     <li role="presentation" class=""><a href="../../index.html">Home</a></li>
                     <li role="presentation" class=""><a href="../about.html">About</a></li>
                     <li role="presentation" class=""><a href="../sessions.html">Sessions</a></li>
-                    <li role="presentation" class="active"><a href="../gallery.html">Gallery</a></li>
-                    <li role="presentation" class=""><a href="../contact.html">Contact</a></li>
-                    <div class="pull-right social-icon">
-                        <li role="presentation"><a href="https://www.facebook.com/TrangKatphoto/" target="_blank"><img src="../../img/glyphicons-social-31-facebook.png"></a></li>
-                        <li role="presentation" class="instagram"><img src="../../img/glyphicons-social-33-instagram.png"></li>
+
+                    <li role="" class="active"><a id="dLabel" data-target="#" href="../gallery.html" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        Gallery
+                        <span class="caret"></span>    
+                    </a>
+                    <ul class="dropdown-menu dropdown" aria-labelledby="dLabel">
+                        <li role="presentation" class=""><a href="../gallery.html">Newborn</a></li>
+                        <li role="presentation" class="active"><a href="maternity.html">Maternity</a></li>
+                        <li role="presentation" class=""><a href="family.html">Family</a></li>
+                        <li role="presentation" class=""><a href="cakesmash.html">Cake Smash</a></li>
+                    </ul>
+                    </li>
+                    <li role="presentation" class=""><a href="../pages/contact.html">Contact</a></li>
+                    <div class="social-icon">
+                        <li role="presentation"><a href="https://www.facebook.com/TrangKatphoto/" target="_blank"><img src="../../img/glyphicons-social-31-facebook.png"></a><a href="#"><img src="../../img/glyphicons-social-33-instagram.png"></a></li>
                     </div>
                 </ul>
             </div>
