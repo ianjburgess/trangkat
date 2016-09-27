@@ -57,7 +57,6 @@
 
 .navbar ul li a {
     font-family: "Open Sans";
-    text-transform:uppercase;
     font-size: 18px;
     text-decoration: none;
 }
@@ -78,6 +77,10 @@
     display: inline-block;
 }
 
+.dropdown li {
+    font-size: 6px;
+}
+
 .gallery-sub li a {
     font-family: "Open Sans";
     padding: 5px 13px;
@@ -92,11 +95,6 @@
     float: right;
     padding-top: 15px;
 }
-
-.instagram {
-    padding-left: 5px;
-}
-
 
 /* Carousel styles */
 .carousel {
@@ -325,7 +323,7 @@ body {
     }
 }
 
-@media (max-width: 766px) {
+@media (max-width: 767px) {
     .navbar-default {
         background: none;
     }
@@ -334,15 +332,25 @@ body {
         background: white;
     }
 
-    .social-icon {
-        float: none;
-        padding-top: 5px;
-        padding-right: 8px;
+    .navbar-nav {
+    width: 100%;
+    text-align: left;
     }
 
-    .navbar ul li a {
-        font-size: 15px;
-        padding: 7px 10px;
+    .navbar-nav li {
+        float: none;
+        display: block;
+    }
+
+    .social-icon {
+        float: left;
+        display: inline-block;
+        padding-top: 0;
+        padding-right: 0;
+    }
+
+    .navbar li a {
+        padding: 4px 0 10px 10px;
     }
 }
 
