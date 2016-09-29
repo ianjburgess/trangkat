@@ -78,6 +78,7 @@
 }
 
 .dropdown li {
+    width: 100%;
     font-size: 6px;
 }
 
