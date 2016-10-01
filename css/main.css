@@ -92,6 +92,10 @@
     margin: auto;
 }
 
+.gallery-sub ul {
+    padding-left: 0;
+}
+
 .social-icon {
     float: right;
     padding-top: 15px;
@@ -333,6 +337,10 @@ body {
         background: white;
     }
 
+    .navbar-header {
+        padding-top: 18px;
+    }
+
     .navbar-nav {
     width: 100%;
     text-align: left;
@@ -341,6 +349,10 @@ body {
     .navbar-nav li {
         float: none;
         display: block;
+    }
+
+    .gallery-sub {
+        padding-top: 90px;
     }
 
     .social-icon {
