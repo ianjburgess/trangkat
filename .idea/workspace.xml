@@ -3,7 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="0f8b18d0-d742-4f63-bc80-91c742a0d231" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/about.html" afterPath="$PROJECT_DIR$/pages/about.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/contact.html" afterPath="$PROJECT_DIR$/pages/contact.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/gallery.html" afterPath="$PROJECT_DIR$/pages/gallery.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/gallery/cakesmash.html" afterPath="$PROJECT_DIR$/pages/gallery/cakesmash.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/gallery/family.html" afterPath="$PROJECT_DIR$/pages/gallery/family.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/gallery/maternity.html" afterPath="$PROJECT_DIR$/pages/gallery/maternity.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/gallery/newborn.html" afterPath="$PROJECT_DIR$/pages/gallery/newborn.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/sessions.html" afterPath="$PROJECT_DIR$/pages/sessions.html" />
     </list>
     <ignored path="trangkat---singlenav.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,7 +31,7 @@
     <favorites_list name="trangkat---singlenav" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -123,7 +131,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -144,7 +152,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -290,11 +298,12 @@
       <workItem from="1474634641741" duration="28000" />
       <workItem from="1474677322272" duration="599000" />
       <workItem from="1475233983652" duration="598000" />
+      <workItem from="1475413302826" duration="116000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="195215000" />
+    <option name="totallyTimeSpent" value="195331000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />

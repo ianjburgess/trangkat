@@ -14,6 +14,10 @@
    custom styles
    ========================================================================== */
 
+.list-style-none {
+    list-style: none;
+}
+
 .vcenter {
     display: inline-block;
     vertical-align: middle;
@@ -94,15 +98,6 @@
 
 .gallery-sub ul {
     padding-left: 0;
-}
-
-.social-icon {
-    float: right;
-    padding-top: 15px;
-}
-
-.social-icon li a {
-    padding: 0 2px;
 }
 
 /* Carousel styles */
@@ -275,11 +270,19 @@ body {
 }
 
 /* Footer */
-.panel {
-    margin-bottom: 0;
-    margin-top: 10px;
+.footer p {
+    margin: 0;
+    padding-top: 10px;
 }
 
+.social-icon {
+    float: right;
+    margin: 2px 0;
+}
+
+.social-icon li a {
+    padding: 0 2px;
+}
 
 
 /* Media Queries */
@@ -338,7 +341,7 @@ body {
     }
 
     .navbar-header {
-        padding-top: 18px;
+        padding-top: 10px;
     }
 
     .navbar-nav {
@@ -353,13 +356,6 @@ body {
 
     .gallery-sub {
         padding-top: 90px;
-    }
-
-    .social-icon {
-        float: left;
-        display: inline-block;
-        padding-top: 0;
-        padding-right: 0;
     }
 
     .navbar li a {
@@ -382,6 +378,13 @@ body {
 @media (min-width: 1440px) {
     .galleryImg {
         max-height: 310px;
+    }
+}
+
+@media (min-width: 1555px) {
+    .nav-contain {
+        max-width: 1555px;
+        margin: auto;
     }
 }
 
