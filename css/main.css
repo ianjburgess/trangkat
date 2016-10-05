@@ -115,7 +115,7 @@
 }
 
 /* Work Box */
-.text {
+.textCenter {
     max-width: 970px;
     text-align: center;
     margin: auto;
@@ -132,6 +132,10 @@
     box-shadow: 2px 2px 20px 0 #828282;
 }
 
+.workBox {
+    padding-bottom: 30px;
+}
+
 .imgWrap {
     position: relative;
 }
@@ -140,15 +144,13 @@
     text-align: center!important;
     padding-top: 5px;
     position: absolute;
-    top: 45%;
+    top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     height: 30px;
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #404040 55%, #404040 55%, rgba(255, 255, 255, 0) 100%);
-    color: #fff;
-    visibility: hidden;
-    opacity: 0;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 55%, #fff 55%, rgba(255, 255, 255, 0) 100%);
+    color: #000;
 }
 
 .imgWrap:hover .imgDescription {
