@@ -216,7 +216,7 @@ pip-log.txt
 .mr.developer.cfg
 
 
-.jpg
-.jpeg
-.png
-.gif
+*.jpg
+*.jpeg
+*.png
+*.gif
