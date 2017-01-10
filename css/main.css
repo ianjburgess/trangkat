@@ -21,8 +21,12 @@
 .vcenter {
     display: inline-block;
     vertical-align: middle;
-
 }
+
+.hcenter {
+    text-align: center;
+}
+
 .m-auto {
     margin: auto;
 }
@@ -37,6 +41,29 @@
 
 .float-right {
     float: right;
+}
+
+.btn-custom-gray {
+    width: 120px;
+    height: 40px;
+    /*font-family: "eras light itc";*/
+    background-color: #bababa;
+    outline: 2px solid white;
+    outline-offset: -4px;
+    text-decoration: none;
+    border: none;
+}
+
+.btn-custom-gray:hover {
+    background:#c9eaff;
+}
+
+.shadebg {
+    background: #f2f2f2;
+}
+
+.shadelb {
+    background: #F1FFFF;
 }
 
 /* Logo */
@@ -168,10 +195,14 @@ body {
 }
 
 
-/* SESSIONS */
-.shadebg {
-    background: #f2f2f2;
+/* PRICING */
+.pricingText {
+    max-width: 660px;
+    margin: auto;
 }
+
+
+/* SESSIONS */
 
 .pad15 div, .r2 div {
     padding: 15px;
@@ -183,12 +214,14 @@ body {
     width: 100%;
     pointer-events:none;
 }
+
 .vertical-align-center {
     /* To center vertically */
     display: table-cell;
     vertical-align: middle;
     pointer-events:none;
 }
+
 .modal-content {
     /* Bootstrap sets the size of the modal in the modal-dialog class, we need to inherit it */
     width:inherit;
@@ -249,8 +282,8 @@ body {
 
 /* CONTACT */
 .contact-details {
-    padding-top: 15px;
     text-align: center;
+
 }
 
 .contact-form {
@@ -362,10 +395,6 @@ body {
 
     .navbar-collapse {
         background: white;
-    }
-
-    .navbar-header {
-        padding-top: 10px;
     }
 
     .navbar-nav {
