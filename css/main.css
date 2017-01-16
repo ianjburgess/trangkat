@@ -31,14 +31,6 @@
     padding: 0 !important;
 }
 
-.float-left {
-    float: left;
-}
-
-.float-right {
-    float: right;
-}
-
 .btn-custom-gray {
     width: 120px;
     height: 40px;
@@ -68,11 +60,6 @@
 }
 
 /* Nav styles */
-
-.navbar {
-    margin-bottom: 0;
-}
-
 .navbar-default, .gallery-sub {
     background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 55%, #ffffff 55%, rgba(255, 255, 255, 0) 100%);
     border: none;
@@ -89,13 +76,15 @@
     background: rgba(255, 255, 255, 0.1);
 }
 
-
+.navbar {
+    left: 50px;
+}
 .navbar-nav, .gallery-sub {
     width: 100%;
     text-align: center;
 }
 
-.navbar-nav li, .gallery-sub li {
+.nav li, .gallery-sub li {
     float: none;
     display: inline-block;
 }
@@ -217,16 +206,6 @@ body {
     vertical-align: middle;
     pointer-events:none;
 }
-
-.modal-content {
-    /* Bootstrap sets the size of the modal in the modal-dialog class, we need to inherit it */
-    width:inherit;
-    height:inherit;
-    /* To center horizontally */
-    margin: 0 auto;
-    pointer-events:all;
-}
-
 
 /* GALLERY */
 .gallery {
@@ -385,65 +364,39 @@ body {
         max-height: 230px;
     }
     
+
+}
+
+@media (max-width: 825px) {
+
     .navbar {
-        left: 50px;
+        left: 0px;
     }
-}
-
-@media (max-width: 767px) {
-
-}
-
-@media (max-width: 825) {
-   /* .navbar-default {
+    .navbar-default {
         background: none;
     }
-
     .navbar-collapse {
         background: white;
     }
-
-    .navbar-nav {
-    width: 100%;
-    text-align: left;
-    }
-
     .navbar-nav li {
-        float: none;
-        display: block;
-    }
-
-    .gallery-sub {
-        padding-top: 90px;
-    }
-
-    .navbar li a {
-        padding: 4px 0 10px 10px;
-    }  */ 
-    .navbar-header {
-        float: none;
-    }
-    .navbar-left,.navbar-right {
-        float: none !important;
-    }
-    .navbar-toggle {
-        display: block;
-    }
-    .navbar-collapse {
-        border-top: 1px solid transparent;
-        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
-    }
-    .navbar-fixed-top {
-		top: 0;
-		border-width: 0 0 1px;
-	}
-    .navbar-collapse.collapse {
-        display: none!important;
+        display: block; 
     }
     .navbar-nav {
-        float: none!important;
-		margin-top: 7.5px;
-	}
+        width: 100%;
+        text-align: left;   
+    }
+    .navbar-collapse ul>li {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 5px 0 rgba(255,255,255,0.1);
+    }
+
+   /* 
+
+
+
+
+
+
 	.navbar-nav>li {
         float: none;
     }
@@ -454,6 +407,17 @@ body {
     .collapse.in{
   		display:block !important;
 	}
+
+
+
+    .gallery-sub {
+        padding-top: 90px;
+    }
+
+    .navbar li a {
+        padding: 4px 0 10px 10px;
+    }  */ 
+
 }
 
 @media (min-width: 960px) {
