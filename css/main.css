@@ -79,6 +79,10 @@
 .navbar {
     left: 50px;
 }
+.nav-contain {
+    max-width: 1555px; 
+    margin: auto; 
+}
 .navbar-nav, .gallery-sub {
     width: 100%;
     text-align: center;
@@ -105,6 +109,7 @@
 }
 
 .gallery-sub ul {
+    margin-top: 30px;
     padding-left: 0;
 }
 
@@ -275,6 +280,7 @@ body {
     box-shadow: 2px 2px 20px 0 #828282;
     margin-top: 50px;
     background-color: white;
+
 }
 
 .success {
@@ -310,7 +316,7 @@ body {
 .social-icon {
     position: relative;
     float: right;
-    right: 20px;
+
     margin: 3px 0px;
 }
 
@@ -321,47 +327,17 @@ body {
 
 /* Media Queries */
 
-/*
-@media (min-width: 600px) {
-    .height350 {
-        width: 350px;
-        height: auto;
-    }
-}
-
-@media (min-width: 970px) {
-    .height350 {
-        height: 350px;
-        width: auto;
-    }
-}
-
 @media (max-width: 600px) {
-    .height350 {
-        width: 350px;
-        height: auto;
-    }
-
-    .gallery {
-        padding: 0 15px;
-    }
-}
-
-
-
-
-*/
-
-@media (max-width: 480px) {
     .galleryImg {
         width: 100%;
         height: auto;
     }
+
 }
 
 @media (min-width: 769px) {
     .galleryImg {
-        max-height: 230px;
+        max-height: 180px;
     }
     
 
@@ -389,14 +365,7 @@ body {
         border-top: 1px solid transparent;
         box-shadow: inset 0 5px 0 rgba(255,255,255,0.1);
     }
-
    /* 
-
-
-
-
-
-
 	.navbar-nav>li {
         float: none;
     }
@@ -410,9 +379,7 @@ body {
 
 
 
-    .gallery-sub {
-        padding-top: 90px;
-    }
+
 
     .navbar li a {
         padding: 4px 0 10px 10px;
@@ -422,13 +389,16 @@ body {
 
 @media (min-width: 960px) {
     .galleryImg {
-        max-height: 280px;
+        max-height: 220px;
     }
 }
 
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
     .container {
-        width: 1270px;
+        width: 100%;
+    }
+        .social-icon {
+        right: 0px;
     }
 }
 
@@ -436,13 +406,10 @@ body {
     .galleryImg {
         max-height: 310px;
     }
-}
-
-
-@media (min-width:2000px) {
-    .galleryImg {
-        max-height: 500px;
+        .social-icon {
+        right: 100px;
     }
+
 }
 
 
