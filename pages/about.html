@@ -10,7 +10,7 @@
     <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
     <link rel="icon" href="../favicon.ico" type="image/x-icon">
     <!-- Place favicon.ico in the root directory -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <!-- Main styles / Scripts -->
     <link rel="stylesheet" href="../css/main.css">
 
@@ -22,45 +22,44 @@
 
 <header class="header">
     <div class="logo navbar-fixed-top nav-contain" style="height: 50px">
-        <a class="" href="../index.html">
-            <img style="height:100px;" src="../img/logo2.png" alt="">
-        </a>
+        <img style="height:100px;" src="../img/logo2.png" alt="">
     </div>
-    <nav class="navbar navbar-default navbar-fixed-top nav-contain" role="navigation">
-        <div class="container-fluid">
+    <nav class="navbar navbar-default navbar-fixed-top" id="nav1" role="navigation">
 
-            <!-- Nav toggle -->
-            <div class="navbar-header">
-                <button type="button" class="collapsed navbar-toggle" data-toggle="collapse" data-target="#mainNav">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
+        <!-- Nav toggle -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
 
-            <!-- Nav Items -->
-            <div class="collapse navbar-collapse" id="mainNav" aria-expanded="false">
-                <ul class="nav navbar-nav">
-                    <li role="presentation" class=""><a href="../index.html">Home</a></li>
-                    <li role="presentation" class="active"><a href="about.html">About</a></li>
-                    <li role="presentation" class=""><a href="pricing.html">Pricing</a></li>
-                    <li role="presentation" class=""><a href="sessions.html">Session Information</a></li>
+        <!-- Nav Items -->
+        <div class="navbar-collapse collapse nav-contain">
+            <ul class="nav navbar-nav">
+                <li class=""><a href="../index.html">Home</a></li>
+                <li class="active"><a href="about.html">About</a></li>
+                <li class=""><a href="pricing.html">Pricing</a></li>
+                <li class=""><a href="sessions.html">Session Information</a></li>
 
-                    <li role="" class=""><a id="dLabel" data-target="#" href="gallery.html" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                        Gallery
-                        <span class="caret"></span>    
-                    </a>
-                    <ul class="dropdown-menu dropdown" aria-labelledby="dLabel">
-                        <li role="presentation" class=""><a href="gallery.html">Newborn</a></li>
-                        <li role="presentation" class=""><a href="gallery/maternity.html">Maternity</a></li>
-                        <li role="presentation" class=""><a href="gallery/kids.html">Baby + Kids</a></li>
-                        <li role="presentation" class=""><a href="gallery/family.html">Family</a></li>
-                        <li role="presentation" class=""><a href="gallery/cakesmash.html">Cake Smash</a></li>
-                    </ul>
-                    </li>
-                    <li role="presentation" class=""><a href="contact.html">Contact</a></li>
+                <li class=""><a id="dLabel" data-target="#" href="gallery.html" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                    Gallery
+                    <span class="caret"></span>    
+                </a>
+                <ul class="dropdown-menu dropdown" aria-labelledby="dLabel">
+                    <li class=""><a href="gallery.html">Newborn</a></li>
+                    <li class=""><a href="gallery/maternity.html">Maternity</a></li>
+                    <li class=""><a href="gallery/kids.html">Baby + Kids</a></li>
+                    <li class=""><a href="gallery/family.html">Family</a></li>
+                    <li class=""><a href="gallery/cakesmash.html">Cake Smash</a></li>
                 </ul>
-            </div>
+                </li>
+                <li class=""><a href="contact.html">Contact</a></li>
+                <div class="social-icon list-style-none">
+                    <li><a href="https://www.facebook.com/TrangKatphoto/" target="_blank"><img src="../img/glyphicons-social-31-facebook.png"></a><a href="https://www.instagram.com/trangkatphotography/"><img src="../img/glyphicons-social-33-instagram.png"></a></li>
+                </div>
+            </ul>
         </div>
     </nav>
 </header>
@@ -71,15 +70,15 @@
             <img class="img-responsive m-auto" src="http://placehold.it/600x500">
         </div>
         <div class="col-md-6">
-            <p>Hello! My name is Trang Nguyen. Thanks for visiting my website!</p>
-            <p>I am a Professional Photographer, a Midwife of 6 years and a mother to a beautiful girl. My passion for photographing little ones came about soon after having my baby . As a midwife I have always loved caring for new mothers and babies and to now capture these precious moments, that will tell wonderful stories for many years to come. Moments that can be shared and enjoyed by the whole family well I couldn't think of anything I'd rather do.</p>
+            <p>Hello! My name is Trang Burgess. Thanks for visiting my website!</p>
+            <p>I am a Professional Photographer, a Midwife of 6 years and a mother to a beautiful girl. My passion for photographing little ones came about soon after having my baby. As a midwife I have always loved caring for new mothers and babies and to now capture these precious moments, moments that can be shared and enjoyed by the whole family.</p>
             <p>I provide a relaxed, fun and enjoyable atmosphere all in the comfort of my home studio in Ardeer, Victoria and surrounding outdoor locations.</p>
             <p>I love to work with natural lighting to produce the most natural images and to allow comfort during the session.</p>
             <p>Thanks for stopping by and I hope you enjoy browsing through the images in my portfolio and let me show you an experience where we will capture memories of your beautiful bump and little one, which you will cherish generations to come.</p>
-            <p>To arrange your photography session, shoot me an email via the <strong><em><u><a href="contact.html">contact form</a></u></em></strong>, or give me a call on 0421245467&ndash; I&rsquo;d love to hear from you!</p>
+            <p>To arrange your photography session, shoot me an email via the <a href="contact.html"><strong><em><u>contact form</u></em></strong></a>, or give me a call on 0467 299 885 - I'd love to hear from you!</p>
             <p>Warm regards,</p>
-            <p>Trang Nguyen</p>
-            <p>TrangKat Photography</p>
+            <p>Trang Burgess</p>
+            <p>Trang Kat Photography</p>
         </div>
     </div>
     <div class="row">
@@ -90,6 +89,14 @@
             <img class="img-responsive m-auto" src="http://placehold.it/600x500">
         </div>
     </div>
+</div>
+
+<!-- Footer -->
+<div class="text-center fb-box">
+    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FTrangKatphoto%2F&tabs&width=340&height=130&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="340" height="130" style="border:none;overflow:hidden;" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+</div>
+<div class="footer">
+    <div class="text-center">© Copyright Trang Kat Photography 2017</div>
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>

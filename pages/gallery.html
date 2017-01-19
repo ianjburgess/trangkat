@@ -12,7 +12,7 @@
     <!-- Place favicon.ico in the root directory -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <!-- Gallery Scripts -->
     <link rel="stylesheet" href="../css/simplelightbox.min.css">
@@ -27,51 +27,50 @@
 <![endif]-->
 
 <header class="header">
-    <div class="logo navbar-fixed-top" style="height: 50px;">
-        <a href="../index.html">
-            <img src="../img/logo2.png" alt="">
-        </a>
+    <div class="logo navbar-fixed-top " style="height: 50px">
+        <img style="height:100px;" src="../img/logo2.png" alt="">
     </div>
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container-fluid">
+    <nav class="navbar navbar-default navbar-fixed-top" id="nav1" role="navigation">
 
-            <!-- Nav toggle -->
-            <div class="navbar-header">
-                <button type="button" class="collapsed navbar-toggle" data-toggle="collapse" data-target="#mainNav">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
+        <!-- Nav toggle -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
 
-            <!-- Nav Items -->
-            <div class="collapse navbar-collapse" id="mainNav" aria-expanded="false">
-                <ul class="nav navbar-nav">
-                    <li role="presentation" class=""><a href="../index.html">Home</a></li>
-                    <li role="presentation" class=""><a href="about.html">About</a></li>
-                    <li role="presentation" class=""><a href="pricing.html">Pricing</a></li>
-                    <li role="presentation" class=""><a href="sessions.html">Session Information</a></li>
+        <!-- Nav Items -->
+        <div class="navbar-collapse collapse ">
+            <ul class="nav navbar-nav">
+                <li class=""><a href="../index.html">Home</a></li>
+                <li class=""><a href="about.html">About</a></li>
+                <li class=""><a href="pricing.html">Pricing</a></li>
+                <li class=""><a href="sessions.html">Session Information</a></li>
 
-                    <li role="" class="active"><a id="dLabel" data-target="#" href="gallery.html" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                        Gallery
-                        <span class="caret"></span>    
-                    </a>
-                    <ul class="dropdown-menu dropdown" aria-labelledby="dLabel">
-                        <li role="presentation" class="active"><a href="gallery.html">Newborn</a></li>
-                        <li role="presentation" class=""><a href="gallery/maternity.html">Maternity</a></li>
-                        <li role="presentation" class=""><a href="gallery/kids.html">Baby + Kids</a></li>
-                        <li role="presentation" class=""><a href="gallery/family.html">Family</a></li>
-                        <li role="presentation" class=""><a href="gallery/cakesmash.html">Cake Smash</a></li>
-                    </ul>
-                    </li>
-                    <li role="presentation" class=""><a href="contact.html">Contact</a></li>
-
+                <li class="active"><a id="dLabel" data-target="#" href="gallery.html" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                    Gallery
+                    <span class="caret"></span>    
+                </a>
+                <ul class="dropdown-menu dropdown" aria-labelledby="dLabel">
+                    <li class="active"><a href="gallery.html">Newborn</a></li>
+                    <li class=""><a href="gallery/maternity.html">Maternity</a></li>
+                    <li class=""><a href="gallery/kids.html">Baby + Kids</a></li>
+                    <li class=""><a href="gallery/family.html">Family</a></li>
+                    <li class=""><a href="gallery/cakesmash.html">Cake Smash</a></li>
                 </ul>
-            </div>
+                </li>
+                <li class=""><a href="contact.html">Contact</a></li>
+                <div class="social-icon list-style-none" style="right: 0px;">
+                    <li><a href="https://www.facebook.com/TrangKatphoto/" target="_blank"><img src="../img/glyphicons-social-31-facebook.png"></a><a href="https://www.instagram.com/trangkatphotography/"><img src="../img/glyphicons-social-33-instagram.png"></a></li>
+                </div>
+            </ul>
         </div>
     </nav>
-    <div class="nav gallery-sub">
-        <ul class="">
+
+    <div class="gallery-sub" >
+        <ul class="nav nav-tabs" >
             <li role="presentation" class="active"><a href="gallery.html">Newborn</a></li>
             <li role="presentation" class=""><a href="gallery/maternity.html">Maternity</a></li>
             <li role="presentation" class=""><a href="gallery/kids.html">Baby + Kids</a></li>
@@ -79,6 +78,7 @@
             <li role="presentation" class=""><a href="gallery/cakesmash.html">Cake Smash</a></li>
         </ul>
     </div>
+
 </header>
 
 
@@ -345,6 +345,13 @@
         </a>
 </div>
 
+<!-- Footer -->
+<div class="text-center fb-box">
+    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FTrangKatphoto%2F&tabs&width=340&height=130&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="340" height="130" style="border:none;overflow:hidden;" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+</div>
+<div class="footer">
+    <div class="text-center">© Copyright Trang Kat Photography 2017</div>
+</div>
 
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 <script src="../js/blazy.min.js"></script>
