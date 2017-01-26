@@ -57,11 +57,12 @@
 /* Logo */
 .logo img {
     max-height: 85px;
+    z-index: 99999999;
 }
 
 /* Nav styles */
 .navbar-default, .gallery-sub {
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 55%, #ffffff 55%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 15%, #ffffff 45%, #ffffff 50%, rgba(255, 255, 255, 0) 100%);
     border: none;
 }
 
@@ -119,17 +120,17 @@
 }
 
 .carousel-cell {
-    width: 1200px;
-    height: 800px;
-    margin-right: 10px;
+
+    height: 700px;
+
 
     border-radius: 5px;
     counter-increment: carousel-cell;
 }
 
 /* Work Box */
-.textCenter-home {
-    max-width: 970px;
+.textCenter-700px {
+    max-width: 700px;
     text-align: center;
     margin: auto;
 }
@@ -193,6 +194,11 @@ body {
 
 
 /* SESSIONS */
+.faq-button {
+    padding-top: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
 
 .pad15 div, .r2 div {
     padding: 15px;
@@ -211,6 +217,7 @@ body {
     vertical-align: middle;
     pointer-events:none;
 }
+
 
 /* GALLERY */
 .gallery {
@@ -258,6 +265,10 @@ body {
 .sl-wrapper .sl-navigation button {
     color: white;
 }
+
+
+/* ABOUT */
+
 
 
 /* CONTACT */
@@ -374,7 +385,6 @@ body {
 }
 
 @media (max-width: 825px) {
-
     .navbar {
         left: 0px;
     }
