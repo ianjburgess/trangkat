@@ -117,18 +117,17 @@
 /* Carousel styles */
 .carousel {
     padding-top: 50px;
+    -webkit-box-shadow: 2px 2px 20px 0 #828282;
+    box-shadow: 2px 2px 20px 0 #828282;
 }
 
 .carousel-cell {
-
     height: 700px;
-
-
     border-radius: 5px;
     counter-increment: carousel-cell;
 }
 
-/* Work Box */
+/* Index */
 .textCenter-700px {
     max-width: 700px;
     text-align: center;
