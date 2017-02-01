@@ -122,9 +122,13 @@
 }
 
 .carousel-cell {
-    height: 700px;
+    height: 300px;
     border-radius: 5px;
     counter-increment: carousel-cell;
+}
+
+.carousel img {
+    height: 300px;
 }
 
 /* Index */
@@ -171,6 +175,13 @@
     opacity: 1;
 }
 
+.taraQuote {
+    font-family: 'Dancing Script', cursive;
+    font-size: 32px;
+    max-width: 720px;
+    margin: auto;
+}
+
 body {
     /*background-color: #FDF1C4;*/
     /*background-color: #F1FFFF; Light blue*/ 
@@ -197,6 +208,14 @@ body {
     padding-top: 25px;
     font-weight: 600;
     text-transform: uppercase;
+}
+
+.faq-button span {
+    font-size: 12px;
+}
+
+.faq-container {
+    padding: 50px 0 0 5px;
 }
 
 .pad15 div, .r2 div {
@@ -273,7 +292,6 @@ body {
 /* CONTACT */
 .contact-details {
     text-align: center;
-
 }
 
 #contact {
@@ -313,10 +331,6 @@ body {
 }
 
 /* Footer */
-.footer {
-    margin: 0;
-}
-
 .fb-box {
     margin-top: 10px;
 }
@@ -370,7 +384,46 @@ body {
 
 /* Media Queries */
 
-@media (max-width: 600px) {
+@media (min-width: 500px) {
+    .carousel-cell, .carousel img {
+        height: 350px;
+    }
+
+    .faq-container {
+        padding: 50px 0 0 50px;
+    }
+
+    .faq-button span {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 610px) {
+    .carousel-cell, .carousel img {
+        height: 450px;
+    }
+}
+
+
+@media (min-width: 800px) {
+    .carousel-cell, .carousel img {
+        height: 550px;
+    }
+}
+
+@media (min-width: 1100px) {
+    .carousel-cell, .carousel img {
+        height: 700px;
+    }
+}
+
+@media (max-width: 700px) {
+    .taraQuote {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 769px) {
     .galleryImg {
         width: 100%;
         height: auto;
@@ -424,7 +477,8 @@ body {
     .galleryImg {
         max-height: 310px;
     }
-        .social-icon {
+
+    .social-icon {
         right: 100px;
     }
 
