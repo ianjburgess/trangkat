@@ -31,6 +31,7 @@ $(function() {
                 // Clear the form.
                 $('#name').val('');
                 $('#email').val('');
+                $('#phone').val('');
                 $('#message').val('');
             })
             .fail(function(data) {
