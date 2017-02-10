@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Newborn / Maternity Photography in Melbourne | Trang Kat Photography</title>
+        <title>Newborn / Maternity Photographer based in Melbourne | Trang Kat Photography</title>
         <meta name="description" content="Trang Kat Photography specializing in newborn and maternity photography.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -12,7 +12,7 @@
         <!-- Place favicon.ico in the root directory -->
         <link href="https://fonts.googleapis.com/css?family=Dancing+Script:700" rel="stylesheet">
         <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://npmcdn.com/flickity@2.0/dist/flickity.css" media="screen">
+        <link rel="stylesheet" href="css/flickity.css" media="screen">
         <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
@@ -41,7 +41,7 @@
                         <li class="active"><a href="index.html">Home</a></li>
                         <li class=""><a href="pages/about.html">About</a></li>
                         <li class="">
-                            <a id="dLabel" data-target="#" href="pages/packages.html" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <a id="dLabel" data-target="#" href="pages/pricing.html" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                                 Pricing
                                 <span class="caret"></span>    
                             </a>
@@ -165,11 +165,67 @@
             <div class="text-center">© Copyright Trang Kat Photography 2017 | <a href="pages/terms&conditions.html">Terms & Conditions</a></div>
         </div>
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-        <script src="https://npmcdn.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>
-        <script src="js/main.js"></script>
+        <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script> 
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/flickity.pkgd.min.js"></script>
+        <script src="js/main.js">
+                </script>-->
+        <script type="text/javascript">
+            function downloadJSAtOnload() {
+            var element = document.createElement("script");
+            element.src = "https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js";
+            document.body.appendChild(element);
+            }
+            if (window.addEventListener)
+            window.addEventListener("load", downloadJSAtOnload, false);
+            else if (window.attachEvent)
+            window.attachEvent("onload", downloadJSAtOnload);
+            else window.onload = downloadJSAtOnload;
+        </script>
+        <script
+            src="https://code.jquery.com/jquery-2.2.4.min.js"
+            integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+            crossorigin="anonymous">
+        </script>
 
+        <script type="text/javascript">
+            function downloadJSAtOnload() {
+            var element = document.createElement("script");
+            element.src = "js/bootstrap.min.js";
+            document.body.appendChild(element);
+            }
+            if (window.addEventListener)
+            window.addEventListener("load", downloadJSAtOnload, false);
+            else if (window.attachEvent)
+            window.attachEvent("onload", downloadJSAtOnload);
+            else window.onload = downloadJSAtOnload;
+        </script>
+        <script type="text/javascript">
+            function downloadJSAtOnload() {
+            var element = document.createElement("script");
+            element.src = "js/flickity.pkgd.min.js";
+            document.body.appendChild(element);
+            }
+            if (window.addEventListener)
+            window.addEventListener("load", downloadJSAtOnload, false);
+            else if (window.attachEvent)
+            window.attachEvent("onload", downloadJSAtOnload);
+            else window.onload = downloadJSAtOnload;
+        </script>
+        <script type="text/javascript">
+            function downloadJSAtOnload() {
+            var element = document.createElement("script");
+            element.src = "js/main.js";
+            document.body.appendChild(element);
+            }
+            if (window.addEventListener)
+            window.addEventListener("load", downloadJSAtOnload, false);
+            else if (window.attachEvent)
+            window.attachEvent("onload", downloadJSAtOnload);
+            else window.onload = downloadJSAtOnload;
+        </script>
+        
+        
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
