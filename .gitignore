@@ -220,3 +220,5 @@ pip-log.txt
 *.jpeg
 *.png
 *.gif
+js/mailer/data/email-log.php
+js/mailer/data/form-data.php
