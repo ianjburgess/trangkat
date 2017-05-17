@@ -11,6 +11,11 @@ function my_assets() {
 
 
     wp_enqueue_script( 'flickity-js' , get_template_directory_uri() . '/js/flickity.pkgd.min.js' , array( 'jquery' ) , false , true );
+
+    /* add theme menu area */
+    register_nav_menus (array(
+    'primary' => 'Primary Menu',
+    ));
 }
 
 add_action( 'wp_enqueue_scripts', 'my_assets' );

@@ -60,9 +60,21 @@
         <![endif]-->
 
         <header class="header">
+            <?php
+                wp_nav_menu( array(
+                    'theme_location' => 'primary',
+                    'menu_class'     => 'nav navbar-nav',
+                    'container_id'   => 'bs-example-navbar-collapse-1',
+                    'container_class' => 'collapse navbar-collapse',
+                ));
+            ?>
+
+
+            <?php /*
             <div class="logo navbar-fixed-top" style="height: 50px">
                 <a href="index.html" title="Trang Kat Photography - Melbourne Newborn, Maternity & Family Photographer"><img style="height:100px;" src="img/logo2.png" alt="Trang Kat Photography - Melbourne Newborn, Maternity & Family Photographer"></a>
             </div>
+
             <nav class="navbar navbar-default navbar-fixed-top" id="nav1" role="navigation">
 
                 <!-- Nav toggle -->
@@ -119,5 +131,6 @@
                         </div>
                     </ul>
                 </div>
-            </nav>
+            </nav> 
+           */ ?>
         </header>
