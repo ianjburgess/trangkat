@@ -77,9 +77,6 @@
     background: rgba(255, 255, 255, 0.1);
 }
 
-.navbar {
-    left: 50px;
-}
 .nav-contain {
     max-width: 1555px; 
     margin: auto; 
