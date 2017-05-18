@@ -7,73 +7,43 @@
  * @package Simple Blog Theme
  */
 ?>
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en-AU">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Melbourne Newborn Photographer - Trang Kat Photography</title>
-        <meta name="description" content="Beautiful studio based in Melbourne specialising in newborn photography and maternity photography.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="keywords" content="newborn photography, newborn photos melbourne, newborn photographer, melbourne newborn photographer, newborn professional photography melbourne, newborn photography melbourne, baby photographer, baby photography, baby portraits melbourne, melbourne baby photography, baby photos melbourne,  melbourne baby photographer, melbourne baby photographers, child photography, child photographer, melbourne childrens photographer, melbourne child photography, childrens photography, childrens photographer au, kids photographer melbourne, children's photos melbourne, family photographer, family photography melbourne, natural family portraits, melbourne photography, baby portraits melbourne, newborn portraits au, children's portraits, photos of babies, photos of newborns, newborn photos,  melbourne photographer, professional photographer, photography studio, studio photography, modern portraits, family photography melbourne, children's photography, child photography, western suburbs, Trang Kat Photography, Trang Kat, Trang Burgess, Trang Kat Photographer,  photography melbourne, best photographers au, Pregnancy, Maternity, newborn mentoring, victoria, pregnancy photography melbourne, maternity photography melbourne, baby gift voucher, baby shower gift idea, birth announcement cards, afforable baby photography melbourne, affordable newborn photography melbourne">
-        <meta property="og:site_name" content="Trang Kat Photography – Melbourne Newborn, Maternity & Family Photographer">
-        <meta property="og:type" content="website">
-        <meta property="og:title" content="Newborn and Maternity Photographer, Specialising in Maternity photography, Newborn photography, Baby photography and Family Photography">
-        <meta property="og:url" content="https://trangkat.com/">
-        <meta property="og:description" content="Melbourne Newborn and Maternity Photographer, specialising in maternity photography, newborn photography, baby photography and family photography.">
-        <meta property="og:image" content="https://www.trangkat.com/img/newborn/newborn_full%204.jpg">
-        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-        <link rel="icon" href="favicon.ico" type="image/x-icon">
-        <!-- Place favicon.ico in the root directory -->
-        <link href="https://fonts.googleapis.com/css?family=Dancing+Script:700" rel="stylesheet">
 
-        <!-- Piwik -->
-        <script type="text/javascript">
-            var _paq = _paq || [];
-            /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-            // accurately measure the time spent on the last pageview of a visit
-            _paq.push(['enableHeartBeatTimer']);
-            _paq.push(['trackPageView']);
-            _paq.push(['enableLinkTracking']);
-            (function() {
-                var u="//trangkat.com.au/piwik/";
-                _paq.push(['setTrackerUrl', u+'piwik.php']);
-                _paq.push(['setSiteId', '1']);
-                var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-                g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-            })();
-        </script>
-        <!-- End Piwik Code -->
         <?php wp_head(); ?>
     </head>
-    <body>
-        <div id="fb-root"></div>
-        <script>(function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8";
-        fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));</script>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
 
-        <header class="header">
+    <body>
+        <div class="logo navbar-fixed-top" style="height: 50px">
+            <a href="index.html" title="Trang Kat Photography - Melbourne Newborn, Maternity & Family Photographer"><img style="height:100px;" src="../img/logo2.png" alt="Trang Kat Photography - Melbourne Newborn, Maternity & Family Photographer"></a>
+        </div>
+        
+        <nav class="navbar navbar-default navbar-fixed-top" id="nav1" role="navigation">
+            <!-- Nav toggle -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-main-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
             <?php
                 wp_nav_menu( array(
                     'theme_location' => 'primary',
-                    'menu_class'     => 'nav navbar-nav',
-                    'container_id'   => 'bs-example-navbar-collapse-1',
-                    'container_class' => 'collapse navbar-collapse',
+                    'menu_class'     => 'navbar-collapse collapse',
+                    'menu_id'   => 'nav-main-collapse',
+                    'container_class' => 'nav navbar-nav',
+                    'walker' => $walker,
                 ));
-            ?>
-
+            ?> 
+        </nav>
 
             <?php /*
-            <div class="logo navbar-fixed-top" style="height: 50px">
-                <a href="index.html" title="Trang Kat Photography - Melbourne Newborn, Maternity & Family Photographer"><img style="height:100px;" src="img/logo2.png" alt="Trang Kat Photography - Melbourne Newborn, Maternity & Family Photographer"></a>
-            </div>
+            
 
             <nav class="navbar navbar-default navbar-fixed-top" id="nav1" role="navigation">
 
@@ -133,4 +103,3 @@
                 </div>
             </nav> 
            */ ?>
-        </header>
