@@ -16,6 +16,8 @@ function my_assets() {
     register_nav_menus (array(
     'primary' => 'Primary Menu',
     ));
+
+    wp_enqueue_style( 'font' , '//fonts.googleapis.com/css?family=Dancing+Script:700' );
 }
 
 add_action( 'wp_enqueue_scripts', 'my_assets' );

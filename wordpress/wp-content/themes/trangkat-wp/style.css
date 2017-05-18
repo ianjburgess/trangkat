@@ -77,11 +77,8 @@ Author URI: ianjburgess.com.
 .navbar {
     left: 50px;
 }
-.nav-contain {
-    max-width: 1555px; 
-    margin: auto; 
-}
-.navbar-nav, .gallery-sub {
+
+.navbar, .gallery-sub {
     width: 100%;
     text-align: center;
 }
