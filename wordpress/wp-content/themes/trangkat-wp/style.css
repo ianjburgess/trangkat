@@ -1,11 +1,14 @@
-/*
-Theme Name: Trang Kat Photography.
-Theme URI: trangkat.com.au
-Description: Newborn & Maternity Photography.
-Version: 1.0
-Author: Ian Burgess
-Author URI: ianjburgess.com.
-*/
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
 
 /* ==========================================================================
    custom styles
@@ -77,8 +80,11 @@ Author URI: ianjburgess.com.
 .navbar {
     left: 50px;
 }
-
-.navbar, .gallery-sub {
+.nav-contain {
+    max-width: 1555px; 
+    margin: auto; 
+}
+.navbar-nav, .gallery-sub {
     width: 100%;
     text-align: center;
 }

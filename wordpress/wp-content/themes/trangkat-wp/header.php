@@ -31,15 +31,19 @@
                     <span class="icon-bar"></span>
                 </button>
             </div>
-            <?php
+
+             <?php
                 wp_nav_menu( array(
-                    'theme_location' => 'primary',
-                    'menu_class'     => 'navbar-collapse collapse',
-                    'menu_id'   => 'nav-main-collapse',
-                    'container_class' => 'nav navbar-nav',
-                    'walker' => $walker,
+                    'menu'              => 'primary',
+                    'theme_location'    => 'primary',
+                    'depth'             => 2,
+                    'container'         => 'div',
+                    'container_class'   => 'collapse navbar-collapse',
+                    'container_id'      => 'nav-main-collapse',
+                    'menu_class'        => 'nav navbar-nav',
                 ));
-            ?> 
+            ?>
+
         </nav>
 
             <?php /*
