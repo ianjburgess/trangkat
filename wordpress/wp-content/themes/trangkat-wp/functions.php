@@ -1,6 +1,9 @@
 <?php
-/* enqueue styles and scripts */
 
+// Register Custom Navigation Walker
+require_once('wp-bootstrap-navwalker.php');
+
+/* enqueue styles and scripts */
 function my_assets() {
     wp_enqueue_style( 'font' , '//fonts.googleapis.com/css?family=Dancing+Script:700' );
 
@@ -17,7 +20,7 @@ function my_assets() {
 
     /* add theme menu area */
     register_nav_menus (array(
-    'primary' => 'Primary Menu',
+    'primary' => __( 'Primary Menu' )
     ));
 }
 
