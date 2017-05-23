@@ -3,6 +3,8 @@
 // Register Custom Navigation Walker
 require_once('wp-bootstrap-navwalker.php');
 
+
+
 /* enqueue styles and scripts */
 function my_assets() {
     wp_enqueue_style( 'font' , '//fonts.googleapis.com/css?family=Dancing+Script:700' );
@@ -13,17 +15,28 @@ function my_assets() {
     wp_enqueue_style( 'style' , get_stylesheet_uri() );
     wp_enqueue_script( 'bootstrap-js' , get_template_directory_uri() . '/js/bootstrap.min.js' , array( 'jquery' ) , false , true );
 
-    /* theme's primary style.css file */
-    
-
-    wp_enqueue_script( 'flickity-js' , get_template_directory_uri() . '/js/flickity.pkgd.min.js' , array( 'jquery' ) , false , true );
-
     /* add theme menu area */
     register_nav_menus (array(
-    'primary' => __( 'Primary Menu' )
+    'primary' => __( 'Primary Menu' ),
+    'gallery' => __( 'Gallery Menu' )
     ));
 }
 
 add_action( 'wp_enqueue_scripts', 'my_assets' );
+
+function my_custom_sidebar() {
+    register_sidebar(
+        array (
+            'name' => __( 'Custom', 'trangkat' ),
+            'id' => 'custom-side-bar',
+            'description' => __( 'Custom Sidebar', 'trangkat' ),
+            'before_widget' => '<div class="widget-content">',
+            'after_widget' => "</div>",
+            'before_title' => '<h3 class="widget-title">',
+            'after_title' => '</h3>',
+        )
+    );
+}
+add_action( 'widgets_init', 'my_custom_sidebar' );
 
 ?>
