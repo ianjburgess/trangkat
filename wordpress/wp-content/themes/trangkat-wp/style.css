@@ -116,20 +116,10 @@
 }
 
 /* Carousel styles */
-.carousel {
+.main-slider {
     padding-top: 50px;
     -webkit-box-shadow: 2px 2px 20px 0 #828282;
     box-shadow: 2px 2px 20px 0 #828282;
-}
-
-.carousel-cell {
-    height: 300px;
-    border-radius: 5px;
-    counter-increment: carousel-cell;
-}
-
-.carousel img {
-    height: 300px;
 }
 
 /* Index */
@@ -334,6 +324,8 @@ body {
 /* Footer */
 .fb-box {
     margin-top: 10px;
+    border-top: solid black 0.1mm;
+    padding-top: 5px;
 }
 
 .social-icon {
