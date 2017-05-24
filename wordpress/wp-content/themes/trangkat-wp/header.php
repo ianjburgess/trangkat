@@ -36,8 +36,8 @@
     </head>
 
     <body>
-        <div class="logo navbar-fixed-top" style="height: 50px">
-            <a href="index.html" title="Trang Kat Photography - Melbourne Newborn, Maternity & Family Photographer"><img style="height:100px;" src="../img/logo2.png" alt="Trang Kat Photography - Melbourne Newborn, Maternity & Family Photographer"></a>
+        <div class="logo navbar-fixed-top" style="height: 50px;">  
+                <img src="<?php bloginfo('template_url'); ?>/img/logo.png">
         </div>
         
         <nav class="navbar navbar-default navbar-fixed-top" id="nav1" role="navigation">
