@@ -56,7 +56,7 @@
 
 /* Logo */
 .logo img {
-    max-height: 85px;
+    max-height: 80px;
     z-index: 99999999;
 }
 
@@ -293,6 +293,7 @@ body {
     -webkit-box-shadow: 2px 2px 20px 0 #828282;
     box-shadow: 2px 2px 20px 0 #828282;
     margin-top: 50px;
+    padding: 30px;
     background-color: white;
 
 }
@@ -324,7 +325,7 @@ body {
 /* Footer */
 .fb-box {
     margin-top: 10px;
-    border-top: solid black 0.1mm;
+    border-top: solid lightgray 0.1mm;
     padding-top: 5px;
 }
 
@@ -452,8 +453,8 @@ body {
 }
 
 @media (min-width: 960px) {
-    .galleryImg {
-        max-height: 220px;
+    .logo img {
+        max-height: 100px;
     }
 }
 
