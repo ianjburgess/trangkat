@@ -1,5 +1,4 @@
 <?php
-
 // Register Custom Navigation Walker
 require_once('wp-bootstrap-navwalker.php');
 
@@ -7,8 +6,10 @@ require_once('wp-bootstrap-navwalker.php');
 
 /* enqueue styles and scripts */
 function my_assets() {
-    wp_enqueue_style( 'font' , '//fonts.googleapis.com/css?family=Dancing+Script:700' );
 
+    if ( is_page( 'home' ) ) {
+        wp_enqueue_style( 'font' , '//fonts.googleapis.com/css?family=Dancing+Script:700' );
+    }
     
     wp_register_style( 'bootstrap-min' , get_template_directory_uri() . '/css/bootstrap.min.css');
     wp_enqueue_style( 'bootstrap-css' , get_template_directory_uri() . '/css/bootstrap.min.css' );
