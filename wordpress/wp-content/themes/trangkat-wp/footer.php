@@ -13,7 +13,7 @@
 
 
 <div class="footer">
-    <div class="text-center">© Copyright Trang Kat Photography 2017 | <a href="pages/terms&conditions.html">Terms & Conditions</a> | newborn photography melbourne</div>
+    <div class="text-center">© Copyright Trang Kat Photography 2017 | <a href="<?php echo get_page_link( get_page_by_title( 'Terms & Conditions' )->ID ); ?>">Terms & Conditions</a> | newborn photography melbourne</div>
 </div>
 
 <?php wp_footer(); ?>
